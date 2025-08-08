@@ -68,6 +68,12 @@
       margin-bottom: 16px;
       color: var(--cream);
     }
+    .disclaimer {
+      font-size: 0.85rem;
+      color: #444;
+      margin-top: 14px;
+      text-align: left;
+    }
     canvas#confetti {position: fixed; inset: 0; pointer-events: none;}
     #celebrateBtn {
       width: 100%;
@@ -102,6 +108,7 @@
     <p id="headline" class="wintext">Congratulations! You’ve won</p>
     <p class="amount" id="amount" data-default-amount="815">$815</p>
     <button id="celebrateBtn" aria-label="Celebrate again">🎉 Celebrate Again! 🎉</button>
+    <p class="disclaimer">This ticket is only valid if you have not eaten at Pancake Pantry. If you have ever had a meal at Pancake Pantry, this ticket is completely invalid and has no cash value... but maybe you can use that dollar number for something.<br><br>Additionally, if you are able to successfully redeem this for cash value, the money will be paid within ten years in the form of Monopoly money.</p>
   </div>
   <script>
     const $ = (sel, el=document) => el.querySelector(sel);
